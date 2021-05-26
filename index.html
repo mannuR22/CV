@@ -8,15 +8,32 @@
         <link ref="shortcut icon" href="favicon.ico">
         
         <style>
+            
+            @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
             #topHeader {
                 color:#FFB997;
                 font-size: 20px;
-                font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+                font-family: 'Signika', sans-serif;
                 padding: 13px;
             }
             a {
                 text-decoration:none;
             }
+            #heading {
+                font-size: 28px; 
+                color:#F67C7C; 
+                font-family: 'Dosis', sans-serif;
+            }
+
+            td {
+                text-align: left;
+                color:#E1F4F3;
+                font-size: 20px;
+                font-family: 'Signika', sans-serif;
+            }
+
         </style>
     </head>
 
@@ -24,16 +41,23 @@
         
         
         <div class="header" style="width: 100%;height: 80px;padding-top: 9px;padding-bottom: 9px;margin: 0 auto;background-color: #1B262C;text-align: center;">
-            <div style="max-width: 900px;width:60%;height: 80px; margin: 0 auto;border-radius: 10px;">
+            <div style="max-width: 900px;width:50%;height: 80px; margin: 0 auto;border-radius: 10px;">
+                
+                
+                <img src="images/profile.png" style="height: 100%; width: auto; float:left">
+                
+                
+                
                 <div style="float:right;">
 
-                        <div style="float: right;"><p id = "topHeader">&nbsp;&nbsp;</p></div>
+                        
                         <div style="float: right; padding: 0px"><a href="commingSoon.html"><p id = "topHeader">Note</p></a></div>
                         <div style="float: right; padding: 0px"><a href="commingSoon.html"><p id = "topHeader">Work</p></a></div>
                         <div style="float: right; padding: 0px"><a href="commingSoon.html"><p id = "topHeader">About</p></a></div>
                         
                 
                 </div>
+                
             </div>
         </div>
 
@@ -56,30 +80,84 @@
         <div style="width: 100%; height: 6px; background-color: #F67C7C";></div>
 
 
-        <div style="max-width: 900px;width:60%;height:auto; margin: 0 auto;border-radius: 10px;text-align: center;">
+        <div style="max-width: 900px;width:60%;height:auto; margin: 0 auto;border-radius: 10px;text-align: center;padding-top: 80px">
 
-            <br>
 
             <img src="images/profile.png" style="width: 25%; height: auto;">
 
             <div>
-                <p style="font-size: 28px; color:#F67C7C; font-family:brandon-grotesque,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;">Hi!</p>
+                <p id="heading" style="font-size:35px">Hi!</p>
             </div>
 
             <div>
 
-                <p style="min-width: 450px;height: auto; width: 50%; margin: 0 auto;font-size: 28px;color:#E1F4F3;font-family: Georgia, serif;">
-                    I am a 1st year B.Tech student based on Uttarakhand, India.
-                    I have passion for web desinging and love to design for web and mobile.
+                <p style="min-width: 450px;height: auto; width: 50%; margin: 0 auto;font-size: 28px;color:#E1F4F3;font-family: 'Signika', sans-serif;">
+                    I am a future engineer based on Uttarakhand, India.
+                    I have passion for science and technology.
                 </p>
             </div>
             <br>
         </div>
-        <br>
-        <div style="max-width: 900px; width:60%; height:auto; margin: 0 auto; border-radius: 10px; text-align: center">
-            <p style="font-size: 28px; color:#F67C7C; font-family:brandon-grotesque,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;">Contact Me: </p>
-            <p style="font-size: 20px; color: white;">e-mail: mr2819210@gmail.com</p>
-            <p style="font-size: 28px; color:#F67C7C; font-family:brandon-grotesque,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;margin-bottom: 0px;">Social Handles: </p>
+        
+        <div style="padding-top: 60px;max-width: 900px;width:60%;height:auto; margin: 0 auto;border-radius: 10px;text-align: center;">
+        
+            <p id="heading" style="font-size: 35px; font-family: Dosis;">What skills I have.</p>
+            
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table cellspacing='30'>
+                                <tbody>
+                                    <tr>
+                                        <td>C & C++</td>
+                                        <td>&starf;&starf;&starf;&starf;&starf;</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Java</td>
+                                        <td>&starf;&starf;&starf;&starf;&star;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JavaScript</td>
+                                        <td>&starf;&starf;&starf;&star;&star;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+
+                        <td>
+                            <table cellspacing='30'>
+                                <tbody>
+                                    <tr>
+                                        <td>Html & CSS</td>
+                                        <td>&starf;&starf;&starf;&starf;&star;</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Algorithms</td>
+                                        <td>&starf;&starf;&starf;&star;&star;</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Data Structures</td>
+                                        <td>&starf;&starf;&starf;&starf;&starf;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--footer-->
+        <div style="max-width: 900px; width:60%; height:auto; margin: 0 auto; border-radius: 10px; text-align: center; padding-top: 80px">
+
+            <p id="heading">Contact Me: </p>
+            <p style="font-size: 20px; color: white;font-family: 'Signika', sans-serif;">e-mail: mr2819210@gmail.com</p>
+            <br><br>
+            <p id="heading">Social Handles: </p>
             <table align="center" cellSpacing="30" style="margin: 0 auto">
                 <tbody>
                     <tr>
