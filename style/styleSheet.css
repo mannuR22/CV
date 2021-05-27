@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+#topHeader {
+    color:#FFB997;
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    padding: 13px;
+    }
+       
+a {
+    text-decoration:none;
+    }
+    
+#heading {
+    font-size: 28px; 
+    color:#F67C7C; 
+    font-family: 'Dosis', sans-serif;
+    }
+
+td {
+    text-align: left;
+    color:#E1F4F3;
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
